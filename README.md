@@ -1,7 +1,7 @@
 ### Instructions-
 
-Download or Clone the project
+1. Download or Clone the project
 
-Open in browser
+2. Open in browser
 
-Enter the values in input fields and calculate the tip
+3. Enter the values in input fields and calculate the tip
