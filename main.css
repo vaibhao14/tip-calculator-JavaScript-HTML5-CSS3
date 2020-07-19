@@ -1,0 +1,121 @@
+#container {
+  min-height: 400px;
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background: #f7f7f7;
+  box-shadow: 0 0 5px grey;
+  border-radius: 15px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+h1 {
+  background: darkcyan;
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 10px 80px;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form input[type="text"] {
+  width: 90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#billAmount {
+  font-size: 14px;
+  /*color: #2980b9;*/
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  border: 1px solid black;
+}
+
+#billAmount:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#numOfShare {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  background-color: #f7f7f7;
+  font-size: 14px;
+  border: 1px solid black;
+}
+
+.dollarSign {
+  display: inline;
+}
+
+#serviceQuality {
+  font-size: 14px;
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  border: 1px solid black;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #c12026;
+  border: 1px solid #c12026;
+  border-radius: 5px;
+  width: 180px;
+  height: 50px;
+  font-size: 17px;
+  color: white;
+}
+
+button:hover {
+  background: #ad133a;
+  border-bottom-color: #111;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#totalTip {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#totalTip:before {
+  content: "Tip amount";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#totalTip sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#totalTip small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
